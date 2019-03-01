@@ -6,7 +6,6 @@ module.exports = {
       "title": "Roquette Frère",
       "date": "12/2018",
       "tag": "VUEJS,HTML,SASS",
-      "text": "En entreprise, je participe à la réalisation de la partie front-end du site Roquette frère.",
       "porfolio": [
         {
           "type": "texte",
@@ -24,7 +23,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "1.jpg"
+          "lien": "https://api-projets.maximejacquet.fr/roquette-frere/1.jpg"
         }
       ]
     },
@@ -34,7 +33,6 @@ module.exports = {
       "title": "M comme Mutuelle",
       "date": "03/2018",
       "tag": "ANGULAR,HTML,SASS",
-      "text": "Réalisation d'une digital workplace sur Angular.",
       "porfolio": [
         {
           "type": "texte",
@@ -52,7 +50,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "1.jpg"
+          "lien": "https://api-projets.maximejacquet.fr/m-comme-mutuelle/1.jpg"
         }
       ]
     },
@@ -62,7 +60,6 @@ module.exports = {
       "title": "ThreeJS Experiment",
       "date": "01/2018",
       "tag": "THREEJS,VUEJS",
-      "text": "Pour apprendre et par curiosité j'ai décidé de créer ma première expérience en javascript avec la librairie : Three.js.",
       "porfolio": [
         {
           "type": "texte",
@@ -71,11 +68,11 @@ module.exports = {
         {
           "type": "site",
           "label": "Voir le site",
-          "url": "https://experiment.maximejacquet.fr/"
+          "url": "https://threejs.maximejacquet.fr"
         },
         {
           "type": "image",
-          "lien": "1.jpg"
+          "lien": "https://api-projets.maximejacquet.fr/threejs-experiment/1.jpg"
         }
       ]
     },
@@ -85,7 +82,6 @@ module.exports = {
       "title": "Auto-école Laurent",
       "date": "04/2018",
       "tag": "HTML,SASS,WORDPRESS",
-      "text": "Pour une nouvelle auto-école j'ai réalisé un plan de communication contenant logo, carte de visite et site internet.",
       "porfolio": [
         {
           "type": "texte",
@@ -98,11 +94,11 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "1.png"
+          "lien": "https://api-projets.maximejacquet.fr/auto-ecole-laurent/2.jpg"
         },
         {
           "type": "image",
-          "lien": "2.jpg"
+          "lien": "https://api-projets.maximejacquet.fr/auto-ecole-laurent/1.png"
         }
       ]
     },
@@ -112,7 +108,6 @@ module.exports = {
       "title": "Agence web Ariane",
       "date": "11/2017",
       "tag": "HTML,CSS,WORDPRESS,SEO",
-      "text": "En groupe de 6, nous avons crée un thème WordPress pour la réalisation d’un site d’agence web.",
       "porfolio": [
         {
           "type": "texte",
@@ -125,7 +120,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "1.png"
+          "lien": "https://api-projets.maximejacquet.fr/agence-web-ariane/1.png"
         },
         {
           "type": "texte",
@@ -133,7 +128,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "2.jpg"
+          "lien": "https://api-projets.maximejacquet.fr/agence-web-ariane/2.jpg"
         },
         {
           "type": "texte",
@@ -141,7 +136,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "3.jpg"
+          "lien": "https://api-projets.maximejacquet.fr/agence-web-ariane/3.jpg"
         }
       ]
     },
@@ -151,7 +146,6 @@ module.exports = {
       "title": "Court-métrage Carlzone",
       "date": "03/2017",
       "tag": "PRINT,VIDEO",
-      "text": "Avec mon groupe, nous avons réalisé un court-métrage de 10min.",
       "porfolio": [
         {
           "type": "texte",
@@ -174,7 +168,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "1.jpg"
+          "lien": "https://api-projets.maximejacquet.fr/court-metrage-carlzone/1.jpg"
         }
       ]
     }

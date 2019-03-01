@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const data = require("./projects.js");
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8081;
 const router = express.Router();
 const nodemailer = require('nodemailer');
 
@@ -131,7 +131,7 @@ async function main(){
     secure: false, // true for 465, false for other ports
     auth: {
       user: 'maxime1jacquet@gmail.com', // generated ethereal user
-      pass: 'gMehechi7l' // generated ethereal password
+      pass: '' // generated ethereal password
     }
   });
 
