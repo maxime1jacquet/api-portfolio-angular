@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const data = require("./projects.js");
 const port = process.env.PORT || 8081;
 const router = express.Router();
-const nodemailer = require('nodemailer');
+// const nodemailer = require('nodemailer');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -115,43 +115,43 @@ router.get("/project/:id", (req, res) => {
 /*
   TAGS
 */
-router.get("/mail", (req, res) => {
+// router.get("/mail", (req, res) => {
 
-// async..await is not allowed in global scope, must use a wrapper
-async function main(){
+// // async..await is not allowed in global scope, must use a wrapper
+// async function main(){
 
-  // Generate test SMTP service account from ethereal.email
-  // Only needed if you don't have a real mail account for testing
-  let account = await nodemailer.createTestAccount();
+//   // Generate test SMTP service account from ethereal.email
+//   // Only needed if you don't have a real mail account for testing
+//   let account = await nodemailer.createTestAccount();
 
-  // create reusable transporter object using the default SMTP transport
-  let transporter = nodemailer.createTransport({
-    host: "smtp.ethereal.email",
-    port: 587,
-    secure: false, // true for 465, false for other ports
-    auth: {
-      user: 'maxime1jacquet@gmail.com', // generated ethereal user
-      pass: '' // generated ethereal password
-    }
-  });
+//   // create reusable transporter object using the default SMTP transport
+//   let transporter = nodemailer.createTransport({
+//     host: "smtp.ethereal.email",
+//     port: 587,
+//     secure: false, // true for 465, false for other ports
+//     auth: {
+//       user: 'maxime1jacquet@gmail.com', // generated ethereal user
+//       pass: '' // generated ethereal password
+//     }
+//   });
 
-  let mailOptions = {
-    from: '"Fred Foo 👻" <foo@example.com>', // sender address
-    to: "maxime1jacquet@gmail.com", // list of receivers
-    subject: "Hello ✔", // Subject line
-    text: "Hello world?", // plain text body
-    html: "<b>Hello world?</b>" // html body
-  };
+//   let mailOptions = {
+//     from: '"Fred Foo 👻" <foo@example.com>', // sender address
+//     to: "maxime1jacquet@gmail.com", // list of receivers
+//     subject: "Hello ✔", // Subject line
+//     text: "Hello world?", // plain text body
+//     html: "<b>Hello world?</b>" // html body
+//   };
 
-  let info = await transporter.sendMail(mailOptions)
+//   let info = await transporter.sendMail(mailOptions)
 
-  console.log("Message sent: %s", info.messageId);
-  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+//   console.log("Message sent: %s", info.messageId);
+//   console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
 
-}
+// }
 
-main().catch(console.error);
-});
+// main().catch(console.error);
+// });
 
 app.use("/", router);
 app.listen(port);

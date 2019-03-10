@@ -1,6 +1,50 @@
 module.exports = {
   "projects" : [
     {
+      "id": 12,
+      "slug": "yoozly",
+      "title": "Agence Web Yoozly",
+      "date": "02/2019",
+      "tag": "ANGULAR,NODEJS,HTML,SASS",
+      "porfolio": [
+        {
+          "type": "texte",
+          "texte": "J'ai participé en temps que lead développer au développement du site Yoozly, l'agence web où je suis en alternance. Ce site a été réalisé avec le framework JavaScript Angular et il est évolutif. Pour cela, nous avons mis en place beaucoup de bonnes pratiques pour garantir la maintenabilité et la qualité du projet."
+        },
+        {
+          "type": "texte",
+          "texte": "<ul><li>Intégration continue</li><li>Server side rendering (SEO)</li><li>Store redux (avec router store)</li><li>Animations javascript</li><li>Structure propre</li><li>...</li></ul>"
+        },
+        {
+          "type": "site",
+          "label": "Voir le site",
+          "url": "https://yoozly.com/"
+        },
+        {
+          "type": "image",
+          "lien": "/yoozly/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "portfolio",
+      "title": "Mon portfolio",
+      "date": "01/2019",
+      "tag": "ANGULAR,HTML,SASS,NODEJS",
+      "porfolio": [
+        {
+          "type": "texte",
+          "texte": "Bienvenue sur mon portfolio. Ce site, réalisé avec le framework JavaScript Angular, me permet de vous montrer mes compétences en développement front-end."
+        },
+        {
+          "type": "site",
+          "label": "Télécharger mon cv",
+          "url": "https://maximejacquet.fr/assets/maximejacquet_cv.pdf"
+        },
+      ]
+    },
+    {
       "id": 10,
       "slug": "roquette-frere",
       "title": "Roquette Frère",
@@ -23,34 +67,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/roquette-frere/1.jpg"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "slug": "m-comme-mutuelle",
-      "title": "M comme Mutuelle",
-      "date": "03/2018",
-      "tag": "ANGULAR,HTML,SASS",
-      "porfolio": [
-        {
-          "type": "texte",
-          "texte": "En entreprise, je participe à la réalisation de la partie front-end du site Roquette frère. Un projet important qui nous oblige à nous concentré sur la réalisation du projet. Maintenabilité, qualité de code, accessibilité et compatibilité. Sur ce site nous avons créé plusieurs applications avec Vue.Js ces applications permettent le rechargement en AJAX des produits ou des résultats de recherche."
-        },
-        {
-          "type": "site",
-          "label": "Application de recherche",
-          "url": "https://www.roquette.com/site-search"
-        },
-        {
-          "type": "site",
-          "label": "Voir le product finder",
-          "url": "https://www.roquette.com/product-finder-pharma-and-nutraceuticals/"
-        },
-        {
-          "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/m-comme-mutuelle/1.jpg"
+          "lien": "/roquette-frere/1.jpg"
         }
       ]
     },
@@ -72,7 +89,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/threejs-experiment/1.jpg"
+          "lien": "/threejs-experiment/1.jpg"
         }
       ]
     },
@@ -94,11 +111,11 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/auto-ecole-laurent/2.jpg"
+          "lien": "/auto-ecole-laurent/2.jpg"
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/auto-ecole-laurent/1.png"
+          "lien": "/auto-ecole-laurent/1.png"
         }
       ]
     },
@@ -120,7 +137,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/agence-web-ariane/1.png"
+          "lien": "/agence-web-ariane/1.png"
         },
         {
           "type": "texte",
@@ -128,7 +145,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/agence-web-ariane/2.jpg"
+          "lien": "/agence-web-ariane/2.jpg"
         },
         {
           "type": "texte",
@@ -136,7 +153,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/agence-web-ariane/3.jpg"
+          "lien": "/agence-web-ariane/3.jpg"
         }
       ]
     },
@@ -168,7 +185,7 @@ module.exports = {
         },
         {
           "type": "image",
-          "lien": "https://api-projets.maximejacquet.fr/court-metrage-carlzone/1.jpg"
+          "lien": "/court-metrage-carlzone/1.jpg"
         }
       ]
     }
