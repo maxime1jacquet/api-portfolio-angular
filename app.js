@@ -2,22 +2,29 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const data = require("./projects.js");
+const exp = require("./experiences.js");
 const port = process.env.PORT || 8081;
 const router = express.Router();
 // const nodemailer = require('nodemailer');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(express.static('./assets'));
+app.use(express.static("./assets"));
+/*
+  LIST ALL EXPERIENCES
+*/
+router.get("/experiences", (req, res) => {
+  res
+    .header("Access-Control-Allow-Origin", "*")
+    .json({ data: exp.experiences });
+});
+
 /*
   LIST ALL PROJECT
 */
 router.get("/project", (req, res) => {
-  res
-  .header("Access-Control-Allow-Origin", "*")
-  .json({ data: data.projects });
+  res.header("Access-Control-Allow-Origin", "*").json({ data: data.projects });
 });
-
 
 /*
   SERCH BY TITLE
