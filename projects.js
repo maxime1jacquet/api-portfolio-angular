@@ -2,6 +2,39 @@ module.exports = {
   projects: [
     {
       id: 12,
+      slug: "ngx-simple",
+      title: "NGX Simple | npm libraries",
+      date: "05/2019",
+      tag: "ANGULAR,NPM",
+      porfolio: [
+        {
+          type: "texte",
+          texte:
+            "J'ai crée 2 directives sur npm. <br> Elles permettent d'afficher un slider très simple et un countdown."
+        },
+        {
+          type: "site",
+          label: "Simple Countdown",
+          url: "https://www.npmjs.com/package/ngx-simple-countdown"
+        },
+        {
+          type: "site",
+          label: "Simple Slider",
+          url: "https://www.npmjs.com/package/ngx-simple-slider"
+        },
+        {
+          type: "image",
+          lien: "/ngx-simple/1.png"
+        },
+        {
+          type: "site",
+          label: "Voir le site",
+          url: "https://ngx-simple.maximejacquet.fr"
+        }
+      ]
+    },
+    {
+      id: 12,
       slug: "yoozly",
       title: "Agence Web Yoozly",
       date: "02/2019",
