@@ -3,6 +3,7 @@ const app = express();
 const bodyParser = require("body-parser");
 const data = require("./projects.js");
 const exp = require("./experiences.js");
+const about = require("./about.js");
 const port = process.env.PORT || 8081;
 const router = express.Router();
 // const nodemailer = require('nodemailer');
@@ -17,6 +18,10 @@ router.get("/experiences", (req, res) => {
   res
     .header("Access-Control-Allow-Origin", "*")
     .json({ data: exp.experiences });
+});
+
+router.get("/about", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*").json({ data: about.about });
 });
 
 /*

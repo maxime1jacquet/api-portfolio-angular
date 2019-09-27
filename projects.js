@@ -10,7 +10,7 @@ module.exports = {
         {
           type: "texte",
           texte:
-            "J'ai crée 2 directives sur npm. <br> Elles permettent d'afficher un slider très simple et un countdown."
+            "J'ai créé 2 directives sur npm. <br>Elles permettent d'afficher un slider très simple et un countdown. Basées sur Angular, les directives permettent d\'exécuter des fonctions très facilement."
         },
         {
           type: "site",
@@ -25,18 +25,13 @@ module.exports = {
         {
           type: "image",
           lien: "/ngx-simple/1.png"
-        },
-        {
-          type: "site",
-          label: "Voir le site",
-          url: "https://ngx-simple.maximejacquet.fr"
         }
       ]
     },
     {
       id: 12,
       slug: "yoozly",
-      title: "Agence Web Yoozly",
+      title: "Entreprise | Agence Web Yoozly",
       date: "02/2019",
       tag: "ANGULAR,NODEJS,HTML,SASS",
       porfolio: [
@@ -64,7 +59,7 @@ module.exports = {
     {
       id: 11,
       slug: "portfolio",
-      title: "Mon portfolio",
+      title: "Portfolio | Angular - UX",
       date: "01/2019",
       tag: "ANGULAR,HTML,SASS,NODEJS",
       porfolio: [
@@ -83,7 +78,7 @@ module.exports = {
     {
       id: 10,
       slug: "roquette-frere",
-      title: "Roquette Frère",
+      title: "Entreprise | Roquette Frère",
       date: "12/2018",
       tag: "VUEJS,HTML,SASS",
       porfolio: [
@@ -162,7 +157,7 @@ module.exports = {
     {
       id: 7,
       slug: "agence-web-ariane",
-      title: "Agence web Ariane",
+      title: "Ecole | Agence web Ariane",
       date: "11/2017",
       tag: "HTML,CSS,WORDPRESS,SEO",
       porfolio: [
@@ -203,7 +198,7 @@ module.exports = {
     {
       id: 6,
       slug: "court-metrage-carlzone",
-      title: "Court-métrage Carlzone",
+      title: "Ecole | Court-métrage Carlzone",
       date: "03/2017",
       tag: "PRINT,VIDEO",
       porfolio: [
